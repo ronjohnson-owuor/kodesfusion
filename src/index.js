@@ -19,8 +19,7 @@ function App() {
     }).then((response) => {response ? console.log(response) : console.log("email not inserted")})
     .catch((error) => {
       console.error(error);
-    });
-    
+    }); 
   }
 
 
