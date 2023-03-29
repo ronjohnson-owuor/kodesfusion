@@ -14,7 +14,7 @@ function App() {
 
     axios({
       method: "POST",
-      url: "http://localhost:80/apis/newsletter/email.php",
+      url: "static/apis/email.php",
       data: fData
     }).then((response) => {response ? console.log(response) : console.log("email not inserted")})
     .catch((error) => {
