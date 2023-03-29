@@ -1,17 +1,47 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function App() {
+  const [email,setemail] = useState("");
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  // send email function
+  const sendEmail = (e) => {
+    e.preventDefault();
+    var fData = new FormData();
+    fData.append("email",email);
+
+    axios({
+      method: "POST",
+      url: "http://localhost:80/apis/newsletter/email.php",
+      data: fData
+    }).then((response) => {response ? console.log(response) : console.log("email not inserted")})
+    .catch((error) => {
+      console.error(error);
+    });
+    
+  }
+
+
+  return (
+
+
+    <div className='waitinglist'>
+        <h1>Stay in the Know</h1>
+        <p>Never miss a story of success again. Sign up for our mailing list and get the latest
+           biographies and news.Join our waiting list</p>
+           <div className="formWait">
+            <form  method="post">
+              <input type="email" required placeholder='example@gmail.com' onChange={(e)=>setemail(e.target.value)} />
+              <input type="submit" value="submit" onClick={sendEmail} />
+            </form>
+           </div>
+           <span>(email will be used only for notification)</span>
+    </div>
+
+
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
