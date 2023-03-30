@@ -2,14 +2,13 @@
 import {useNavigate} from "react-router-dom";
 
 export default function Home(){
-
-    
     const navigate = useNavigate();
-    // when the browser is rendered
-       setTimeout(()=>{
-         navigate("./storieslisting/Storylist");
-       },10000)
 
+    // open a new window when the 10seconds is over
+    setTimeout(() => {
+        navigate("/storylist");
+    }, 10000);
+    
 
     return(
         <>
