@@ -7,40 +7,47 @@ export default function Love(){
         <>
           <div className="storyBox">
             <div className="heading">
-                <h1>How great ideas are born</h1>
+                <h1>How to improve your productivity</h1>
             </div>
             <div className="content">
 
-            <img src="https://cdn.pixabay.com/photo/2018/01/24/17/33/light-bulb-3104355_960_720.jpg" alt="idea bulb" />
+            <img src="https://cdn.pixabay.com/photo/2020/11/20/22/11/woman-5762754_960_720.png" alt="productivity heading" />
 
                <h3>Introduction:</h3>
                <br />
-               Introduction: Ideas are the foundation of progress, and the spark of creativity is what ignites that foundation. But how do ideas come to life? In this article, we will explore the different ways ideas are born, including problem-solving, inspiration, collaboration, and experience.
+               As professionals, we all want to be productive and efficient in our work. However, it can be challenging to stay focused and motivated throughout the day. Here are some tips to help you increase your productivity and get more done in less time.
 
-               <h3>1)Problem-solving:</h3>
-               Some of the most innovative ideas come from trying to solve a problem. It could be a personal problem, a societal issue, or a business challenge. When we face a problem, our brains automatically start looking for solutions. This search process can lead to some amazing ideas. One classic example is the invention of the Post-it note. A 3M engineer was trying to create a super-strong adhesive, but ended up with a weak one instead. However, he noticed that the weak adhesive was perfect for sticking notes without leaving a residue. This accidental discovery led to the birth of the Post-it note.Remember ideas are born when someone tries to solve a challenge that is facing him /her or even other people what are the challenges facing you
-               and how can you solve them ?
+               <h3>1)Eliminate Distractions</h3>
+               Distractions are one of the biggest productivity killers. Whether it's your phone buzzing, social media notifications, or co-workers chatting, distractions can disrupt your focus and make it challenging to get work done. To eliminate distractions, try turning off your phone notifications, closing unnecessary tabs on your computer, or using noise-canceling headphones to block out external noise.
                 
-                <img src="https://cdn.pixabay.com/photo/2014/10/11/21/18/sunset-485016__340.png" alt="idea bulb" />
+                <img src="https://cdn.pixabay.com/photo/2022/03/03/08/15/time-7044852__340.png" alt="image was suppose to be here" />
 
-                <h3>2)Inspiration:</h3>
-                
-                Sometimes, ideas come from a moment of inspiration. It could be a flash of insight or a sudden realization. Inspiration can come from anywhere – a book, a movie, a conversation, or even a dream. One famous example is the story of how J.K. Rowling came up with the idea for Harry Potter. She was on a train, staring out the window, when she suddenly had the image of a boy who didn't know he was a wizard. That one moment of inspiration led to the creation of one of the most beloved book series of all time.
-                <h3>3)being alert</h3>
-                sometimes beign alert is the only thing we need to born great ideas.Be observant use your eyes to observe the world around you use your ears to listen to people's problems you might get a eureka moment from that. Be sensitive to what people say and how they act you can get great ideas from the situation.
+                <h3>2)Prioritize Tasks</h3>
+                Another way to improve productivity is to prioritize tasks. Make a to-do list at the beginning of each day and rank your tasks in order of importance. This will help you focus on the most critical tasks first and avoid wasting time on less critical ones.
+
+                <h3>3)Take Breaks</h3>
+                It might seem counterintuitive, but taking regular breaks can actually help you be more productive. Studies have shown that taking short breaks can increase focus and reduce stress. Try taking a 5-10 minute break every hour or so to stretch, walk around, or just relax.
 
                 <h3>supplimentary video</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NugRZGDbPFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/T4CB5RPbtCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
                 
                <h3>3)Collaboration:</h3> 
              Ideas can also be born from collaboration. When people with different perspectives and expertise come together, they can generate ideas that none of them could have thought of on their own. Collaborative brainstorming sessions, hackathons, and design sprints are all great examples of how collaboration can lead to innovation. One of the most well-known examples of collaboration in innovation is the development of the  first Apple computer. Steve Jobs and Steve Wozniak were working together to create a personal computer that would be accessible to everyone.If you look closely you will find that some of the thing s we use were mostly not made by a one-man -army except for few , ie google,pintrest , openAI , youtube etc .Collaboration is key in many aspects
 
-              <h3>4)Experience:</h3>
-             Finally, ideas can come from experience. When we go through something, we often come out on the other side with a new perspective or idea. This is especially true for creative endeavors like writing, art, and music. Many artists draw inspiration from their own lives and experiences. For example, Taylor Swift's songwriting is often inspired by her personal experiences and relationships.Remember to keep on reading because the more you read the better you can view the world from a different angle.Compare yourself vs your kid or any person there is something that you know that they dont know and that give you advantage over him or her.
+              <h3>4)Get Enough Sleep</h3>
+              Getting enough sleep is crucial for productivity. If you're tired, you'll have a harder time focusing and being productive. Aim for 7-8 hours of sleep each night to ensure that you're well-rested and ready to tackle the day ahead.
 
-              <h3>Conclusion:</h3>
-             Ideas are the lifeblood of innovation, and they can come from many different sources. Whether it's problem-solving, inspiration, collaboration, or experience, the creative spark can strike at any moment. By embracing these different avenues for idea generation, we can unlock our full potential and make the world a better place.
+              <h3>Use Productivity Tools</h3>
+              There are many productivity tools available that can help you manage your time and stay organized. From task managers to time-tracking software, find tools that work for you and help you stay on top of your work.
+
+              <h3>Set Goals</h3>
+              Setting goals can help you stay focused and motivated. Whether it's a daily, weekly, or monthly goal, having something to work towards can help you stay on track and avoid procrastination.
+
+              <h3>Delegate Tasks</h3>
+              If you're overwhelmed with work, don't be afraid to delegate tasks. This can help you focus on your most critical tasks and reduce stress.
+
+              In conclusion, improving productivity takes effort, but it's worth it in the end. By eliminating distractions, prioritizing tasks, taking breaks, getting enough sleep, using productivity tools, setting goals, using the Pomodoro Technique, and delegating tasks, you can increase your productivity and get more done in less time.
             </div>
             <hr />
             <h3 id="moreHeading">more from us</h3>

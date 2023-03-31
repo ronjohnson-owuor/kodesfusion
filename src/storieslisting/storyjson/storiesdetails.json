@@ -1,19 +1,29 @@
 
 [
     {
-        "title":"LOVE HAS NO BOUNDS",
-        "imagePosition":0,
+        "title":"how to improve productivity",
+        "imagePosition":3,
         "paths":"love"
     },
     {
-        "title":"GO TO THE FARM",
+        "title":"how to pitch your ideas to investor",
         "imagePosition":1,
         "paths":"farm"
     },
     {
         "title":"How great ideas are born",
-        "imagePosition":2,
+        "imagePosition":4,
         "paths":"teen"
+    },
+    {
+        "title":"How to learn coding language faster",
+        "imagePosition":0,
+        "paths":"learntocode"
+    },
+    {
+        "title":"How to learn any language",
+        "imagePosition":2,
+        "paths":"learnanylanguage"
     }
 
 ]

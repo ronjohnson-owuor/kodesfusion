@@ -7,6 +7,8 @@ import Storylisting from './storieslisting/Storylist';
 import Love from './storieslisting/stories/Love';
 import Farm from './storieslisting/stories/Farm';
 import Teen from './storieslisting/stories/Teen';
+import Learn from './storieslisting/stories/Learncode';
+import Learnanylanguage from './storieslisting/stories/Learnanylanguage';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
     <Route path="/love" element = {<Love/>} />
     <Route path="/farm" element = {<Farm/>} />
     <Route path="/teen" element = {<Teen/>} />
+    <Route path="/learntocode" element = {<Learn/>} />
+    <Route path="/learnanylanguage" element = {<Learnanylanguage/>} />
   </Routes>
   </>
   );
