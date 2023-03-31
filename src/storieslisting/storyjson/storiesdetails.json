@@ -1,0 +1,19 @@
+
+[
+    {
+        "title":"LOVE HAS NO BOUNDS",
+        "imagePosition":0,
+        "paths":"love"
+    },
+    {
+        "title":"GO TO THE FARM",
+        "imagePosition":1,
+        "paths":"farm"
+    },
+    {
+        "title":"How great ideas are born",
+        "imagePosition":2,
+        "paths":"teen"
+    }
+
+]
