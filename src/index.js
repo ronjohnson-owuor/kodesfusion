@@ -9,6 +9,10 @@ import Farm from './storieslisting/stories/Farm';
 import Teen from './storieslisting/stories/Teen';
 import Learn from './storieslisting/stories/Learncode';
 import Learnanylanguage from './storieslisting/stories/Learnanylanguage';
+import Saving from './storieslisting/stories/Saving';
+import Savingtough from './storieslisting/stories/Savingtough';
+import Gratitude from './storieslisting/stories/Gratitude';
+import Purpose from './storieslisting/stories/Purpose';
 
 function App() {
 
@@ -24,7 +28,11 @@ function App() {
     <Route path="/love" element = {<Love/>} />
     <Route path="/farm" element = {<Farm/>} />
     <Route path="/teen" element = {<Teen/>} />
+    <Route path="/saving-without-sacrifice" element = {<Saving/>} />
+    <Route path="/saving-on-a-tight-budget" element = {<Savingtough/>} />
     <Route path="/learntocode" element = {<Learn/>} />
+    <Route path="/purpose" element = {<Purpose/>} />
+    <Route path="/powerofgratitude" element = {<Gratitude/>} />
     <Route path="/learnanylanguage" element = {<Learnanylanguage/>} />
   </Routes>
   </>

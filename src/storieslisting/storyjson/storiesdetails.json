@@ -2,17 +2,17 @@
 [
     {
         "title":"how to improve productivity",
-        "imagePosition":3,
+        "imagePosition":4,
         "paths":"love"
     },
     {
         "title":"how to pitch your ideas to investor",
-        "imagePosition":1,
+        "imagePosition":2,
         "paths":"farm"
     },
     {
         "title":"How great ideas are born",
-        "imagePosition":4,
+        "imagePosition":7,
         "paths":"teen"
     },
     {
@@ -22,8 +22,27 @@
     },
     {
         "title":"How to learn any language",
-        "imagePosition":2,
+        "imagePosition":3,
         "paths":"learnanylanguage"
+    }
+    ,{
+        "title":"10 Simple Tips to Save Money Without Sacrificing Your Lifestyle",
+        "imagePosition":5,
+        "paths":"saving-without-sacrifice"
+    },{
+        "title":"Saving money on a tough budget",
+        "imagePosition":8,
+        "paths":"saving-on-a-tight-budget"
+    }
+    ,{
+        "title":"The power of gratitude",
+        "imagePosition":1,
+        "paths":"powerofgratitude"
+    }
+    ,{
+        "title":"Finding Your Passion and Purpose: How to Live a Fulfilling Life",
+        "imagePosition":6,
+        "paths":"purpose"
     }
 
 ]
