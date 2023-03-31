@@ -33,7 +33,7 @@ export default function Learnanylanguage(){
              Learning with a partner can be a great way to stay motivated and learn a new language faster. You can find language learning partners on language exchange websites or apps such as Tandem or HelloTalk. Practice speaking with your partner regularly, and help each other improve.
 
                 <h3>supplimentary video</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LIYGIM7Qd9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qYsHLUAlH_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
                 
                 <h3>Focus on practical language</h3>
