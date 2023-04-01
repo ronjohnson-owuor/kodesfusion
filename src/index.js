@@ -13,6 +13,15 @@ import Saving from './storieslisting/stories/Saving';
 import Savingtough from './storieslisting/stories/Savingtough';
 import Gratitude from './storieslisting/stories/Gratitude';
 import Purpose from './storieslisting/stories/Purpose';
+import Goals from './storieslisting/stories/Goals';
+import Mindfulness from './storieslisting/stories/Mindfulness';
+import Communication from './storieslisting/stories/Communication';
+import Healthyhabits from './storieslisting/stories/Healthyhabits';
+import Selfreflection from './storieslisting/stories/Selfreflection';
+import Lettinggo from './storieslisting/stories/Lettinggo';
+import Optimism from './storieslisting/stories/Optimism';
+import Financialsuccess from './storieslisting/stories/Financialsuccess';
+import Leadership from './storieslisting/stories/Leadership';
 
 function App() {
 
@@ -31,9 +40,19 @@ function App() {
     <Route path="/saving-without-sacrifice" element = {<Saving/>} />
     <Route path="/saving-on-a-tight-budget" element = {<Savingtough/>} />
     <Route path="/learntocode" element = {<Learn/>} />
+    <Route path="/goals" element = {<Goals/>} />
+    <Route path="/financial-success" element = {<Financialsuccess/>} />
+    <Route path="/optimism" element = {<Optimism/>} />
+    <Route path="/art-of-letting-go" element = {<Lettinggo/>} />
+    <Route path="/self-reflection" element = {<Selfreflection/>} />
+    <Route path="/healthyhabits" element = {<Healthyhabits/>} />
+    <Route path="/communication" element = {<Communication/>} />
+    <Route path="/mindfulness" element = {<Mindfulness/>} />
     <Route path="/purpose" element = {<Purpose/>} />
     <Route path="/powerofgratitude" element = {<Gratitude/>} />
     <Route path="/learnanylanguage" element = {<Learnanylanguage/>} />
+    <Route path="/leadership" element = {<Leadership/>} />
+
   </Routes>
   </>
   );

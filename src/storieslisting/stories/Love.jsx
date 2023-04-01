@@ -1,8 +1,10 @@
 import {useNavigate} from "react-router-dom";
-import users from "../storyjson/storiesdetails.json";
+
+import Suggestion from "../../home/Suggestion";
 
 export default function Love(){
-    const navigate = useNavigate();
+    
+    window.scrollTo(0, 0);
     return(
         <>
           <div className="storyBox">
@@ -31,9 +33,6 @@ export default function Love(){
                 <h3>supplimentary video</h3>
                 <iframe src="https://www.youtube.com/embed/T4CB5RPbtCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
-                
-               <h3>3)Collaboration:</h3> 
-             Ideas can also be born from collaboration. When people with different perspectives and expertise come together, they can generate ideas that none of them could have thought of on their own. Collaborative brainstorming sessions, hackathons, and design sprints are all great examples of how collaboration can lead to innovation. One of the most well-known examples of collaboration in innovation is the development of the  first Apple computer. Steve Jobs and Steve Wozniak were working together to create a personal computer that would be accessible to everyone.If you look closely you will find that some of the thing s we use were mostly not made by a one-man -army except for few , ie google,pintrest , openAI , youtube etc .Collaboration is key in many aspects
 
               <h3>4)Get Enough Sleep</h3>
               Getting enough sleep is crucial for productivity. If you're tired, you'll have a harder time focusing and being productive. Aim for 7-8 hours of sleep each night to ensure that you're well-rested and ready to tackle the day ahead.
@@ -51,16 +50,7 @@ export default function Love(){
             </div>
             <hr />
             <h3 id="moreHeading">more from us</h3>
-              <div className="reccomended">
-                   {users.sort(() => Math.random() - 0.5)
-                   .slice(0,3)
-                   .map((items)=>(
-                    <div id={items.key}>
-                        <h3>{items.title}</h3>
-                        <button onClick={() => navigate(`/${items.paths}`)}>read</button>
-                    </div>
-                   ))}
-              </div>
+            <Suggestion/>
           </div>
         </>
     )

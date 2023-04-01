@@ -1,8 +1,10 @@
 import {useNavigate} from "react-router-dom";
-import users from "../storyjson/storiesdetails.json";
+
+import Suggestion from "../../home/Suggestion";
 
 export default function Learnanylanguage(){
-    const navigate = useNavigate();
+     
+    window.scrollTo(0, 0);
     return(
         <>
           <div className="storyBox">
@@ -13,7 +15,7 @@ export default function Learnanylanguage(){
             </div>
             <div className="content">
 
-            <img src="https://cdn.pixabay.com/photo/2015/07/11/19/23/book-841171__340.jpg" alt="idea bulb" />
+            <img src="https://cdn.pixabay.com/photo/2018/02/11/09/42/questions-3145370__340.jpg" alt="idea bulb" />
             
             Learning a new language can be a challenging but incredibly 
             rewarding experience. Whether you're learning a new language
@@ -97,16 +99,7 @@ export default function Learnanylanguage(){
 
             <hr />
             <h3 id="moreHeading">more from us</h3>
-              <div className="reccomended">
-                   {users.sort(() => Math.random() - 0.5)
-                   .slice(0,3)
-                   .map((items)=>(
-                    <div id={items.key}>
-                        <h3>{items.title}</h3>
-                        <button onClick={() => navigate(`/${items.paths}`)}>read</button>
-                    </div>
-                   ))}
-              </div>
+            <Suggestion/>
           </div>
         </>
     )

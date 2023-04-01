@@ -1,9 +1,11 @@
 
-import {useNavigate} from "react-router-dom";
-import users from "../storyjson/storiesdetails.json";
+
+
+import Suggestion from "../../home/Suggestion";
 
 export default function Purpose(){
-    const navigate = useNavigate();
+    
+    window.scrollTo(0, 0);
     return(
         <>
           <div className="storyBox">
@@ -51,16 +53,7 @@ export default function Purpose(){
 
             <hr />
             <h3 id="moreHeading">more from us</h3>
-              <div className="reccomended">
-                   {users.sort(() => Math.random() - 0.5)
-                   .slice(0,3)
-                   .map((items)=>(
-                    <div id={items.key}>
-                        <h3>{items.title}</h3>
-                        <button onClick={() => navigate(`/${items.paths}`)}>read</button>
-                    </div>
-                   ))}
-              </div>
+            <Suggestion/>
           </div>
         </>
     )

@@ -7,7 +7,7 @@ export default function Home(){
     // open a new window when the 10seconds is over
     setTimeout(() => {
         navigate("/storylist");
-    }, 10000);
+    }, 7000);
     
 
     return(
