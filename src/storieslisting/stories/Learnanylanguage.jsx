@@ -1,6 +1,7 @@
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Learnanylanguage(){
      
@@ -14,7 +15,7 @@ export default function Learnanylanguage(){
                 <h1>How to Learn  Languages Faster</h1>
             </div>
             <div className="content">
-
+                    <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2018/02/11/09/42/questions-3145370__340.jpg" alt="idea bulb" />
             
             Learning a new language can be a challenging but incredibly 

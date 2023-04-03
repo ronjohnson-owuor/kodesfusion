@@ -1,6 +1,7 @@
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Love(){
     
@@ -12,7 +13,7 @@ export default function Love(){
                 <h1>How to improve your productivity</h1>
             </div>
             <div className="content">
-
+                  <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2020/11/20/22/11/woman-5762754_960_720.png" alt="productivity heading" />
 
                <h3>Introduction:</h3>

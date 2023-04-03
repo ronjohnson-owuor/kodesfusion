@@ -1,7 +1,8 @@
 
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Gratitude(){
     
@@ -15,7 +16,7 @@ export default function Gratitude(){
                 <h1>The Power of Gratitude: How Practicing Thankfulness Can Change Your Life</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2021/06/02/15/25/daisy-6304767_960_720.jpg" alt="idea bulb" />
             
             Gratitude is one of the most powerful emotions we can experience. It has been scientifically proven to improve our mental and physical health, enhance our relationships, and increase our overall happiness. But what exactly is gratitude, and how can we cultivate this powerful emotion in our daily lives?

@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Purpose(){
     
@@ -15,7 +16,7 @@ export default function Purpose(){
                 <h1>Finding Your Passion and Purpose: How to Live a Fulfilling Life</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2017/02/08/14/19/life-2048978__340.jpg" alt="idea bulb" />
             
             Living a fulfilling life is a goal that many of us aspire to achieve. At the heart of this desire is the quest for purpose and passion, two vital ingredients that give our lives meaning and direction. In this blog, we will explore how to find your passion and purpose, and how these two elements can lead you to a life of fulfillment.

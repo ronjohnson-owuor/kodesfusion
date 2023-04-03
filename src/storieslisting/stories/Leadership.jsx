@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Leadership(){
     
@@ -15,7 +16,7 @@ export default function Leadership(){
                 <h1>Leadership Skills: How to Become a Great Leader and Inspire Others</h1>
             </div>
             <div className="content">
-
+               <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2015/07/20/13/01/man-852770__340.jpg" alt="idea bulb" />
             
             Leadership is not just about being in charge, but about inspiring and motivating others to achieve a common goal. Whether you're leading a team at work or a community organization, developing strong leadership skills is essential for success. In this blog post, we'll explore some key traits of great leaders and provide tips for developing your own leadership skills.

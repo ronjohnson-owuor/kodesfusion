@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Communication(){
     
@@ -15,6 +16,8 @@ export default function Communication(){
                 <h1>Mastering Communication: The Key to Effective Relationships and Success</h1>
             </div>
             <div className="content">
+
+              <Navigation/>
 
             <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501__340.jpg" alt="idea bulb" />
             

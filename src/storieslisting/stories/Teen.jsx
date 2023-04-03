@@ -1,6 +1,7 @@
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Teen(){
  
@@ -13,7 +14,7 @@ export default function Teen(){
                 <h1>How great ideas are born</h1>
             </div>
             <div className="content">
-
+            <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2018/01/24/17/33/light-bulb-3104355_960_720.jpg" alt="idea bulb" />
 
                <h3>Introduction:</h3>

@@ -1,6 +1,7 @@
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Learn(){
     
@@ -12,7 +13,7 @@ export default function Learn(){
                 <h1>How to Learn Any Coding Language Faster</h1>
             </div>
             <div className="content">
-
+             <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2021/11/14/19/04/programming-6795536_960_720.png" alt="idea bulb" />
             Learning a new coding language can be a daunting task, but with the right approach, you can accelerate your progress and become proficient in a fraction of the time it would normally take. Here are some tips to help you learn any coding language faster:
            <h3>Set a Goal and a Deadline</h3>

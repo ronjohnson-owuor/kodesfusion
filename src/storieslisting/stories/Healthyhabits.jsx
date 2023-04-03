@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Healthyhabits(){
     
@@ -15,7 +16,7 @@ export default function Healthyhabits(){
                 <h1>Healthy Habits for a Better You: Simple Changes for a Happier, Healthier Life</h1>
             </div>
             <div className="content">
-
+                     <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532__340.jpg" alt="idea bulb" />
             
             Making healthy choices can be challenging, especially with busy schedules and tempting treats around every corner. However, small changes can make a big difference in your overall health and happiness. In this blog post, we'll explore some simple healthy habits that you can incorporate into your daily routine for a better you.

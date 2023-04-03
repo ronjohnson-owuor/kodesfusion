@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Financialsuccess(){
     
@@ -15,7 +16,7 @@ export default function Financialsuccess(){
                 <h1>Money Management Made Easy: Tips for Financial Success</h1>
             </div>
             <div className="content">
-
+            <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2018/04/05/02/25/analytics-3291738__340.jpg" alt="idea bulb" />
             
             Managing your money can be overwhelming and confusing, especially if you don't have a background in finance. But don't worry - with a few simple tips and tricks, you can take control of your finances and achieve financial success. Let's dive in!

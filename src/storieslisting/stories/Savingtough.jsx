@@ -1,7 +1,8 @@
 
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 window.scrollTo(0, 0);
 
 export default function Savingtough(){
@@ -15,7 +16,7 @@ export default function Savingtough(){
                 <h1>How to Save Money on a Tight Budget: Tips and Tricks for Living Frugally</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_960_720.jpg" alt="idea bulb" />
             
             Living on a tight budget can be a challenge, but it's not impossible. With some smart strategies and a bit of discipline, you can save money even when your income is limited. Here are some tips and tricks for living frugally:
@@ -26,7 +27,7 @@ export default function Savingtough(){
            <h3>Use coupons and discount codes</h3>
            Before you make a purchase, check online for coupons and discount codes. You can often find great deals on everything from groceries to clothing and electronics.
                 
-                <img src="https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696229__340.jpg.jpg" alt="idea bulb" />
+                <img src="https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_960_720.jpg" alt="idea bulb" />
 
                 <h3>Shop secondhand</h3>
                 Buying secondhand items (mitumba) can save you a lot of money, especially for things like clothing and furniture. Check out thrift stores, consignment shops, and online marketplaces like Craigslist or Facebook Marketplace.

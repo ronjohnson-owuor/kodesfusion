@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Lettinggo(){
     
@@ -15,7 +16,7 @@ export default function Lettinggo(){
                 <h1>The Art of Letting Go: How to Release Negative Emotions and Move Forward in Life</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2018/05/22/14/00/girl-3421489__340.jpg" alt="idea bulb" />
             
             Letting go of negative emotions and experiences can be challenging, but it's an essential part of living a happy and fulfilling life. Holding onto anger, resentment, and hurt can lead to negative thoughts and behaviors that can impact your mental health and relationships. In this blog post, we'll explore the art of letting go and provide tips for how to release negative emotions and move forward in life.

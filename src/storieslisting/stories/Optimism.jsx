@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Optimism(){
     
@@ -15,7 +16,7 @@ export default function Optimism(){
                 <h1>Optimism:Experience a world from a different angle</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2019/08/29/18/32/glass-4439673__340.jpg" alt="idea bulb" />
             
             Do you tend to see the glass as half-full or half-empty? Your answer could have a significant impact on your mental health and well-being. Positive thinking is a powerful tool for improving your outlook on life, reducing stress, and enhancing your overall well-being. In this blog post, we'll explore the power of positive thinking and provide tips for how to cultivate a more optimistic mindset.

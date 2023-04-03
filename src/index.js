@@ -22,6 +22,10 @@ import Lettinggo from './storieslisting/stories/Lettinggo';
 import Optimism from './storieslisting/stories/Optimism';
 import Financialsuccess from './storieslisting/stories/Financialsuccess';
 import Leadership from './storieslisting/stories/Leadership';
+import Contactus from './reachus/Contactus';
+import About from './reachus/Aboutus';
+import Terms from './reachus/Terms';
+import Policy from './reachus/Policy';
 
 function App() {
 
@@ -35,6 +39,10 @@ function App() {
   <Route path="/" element = {<Home/>} />
     <Route path="/storylist" element = {<Storylisting/>} />
     <Route path="/love" element = {<Love/>} />
+    <Route path="/contactus" element = {<Contactus/>} />
+    <Route path="/about" element = {<About/>} />
+    <Route path="/terms" element = {<Terms/>} />
+    <Route path="/policy" element = {<Policy/>} />
     <Route path="/farm" element = {<Farm/>} />
     <Route path="/teen" element = {<Teen/>} />
     <Route path="/saving-without-sacrifice" element = {<Saving/>} />

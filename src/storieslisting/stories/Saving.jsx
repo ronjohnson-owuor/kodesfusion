@@ -1,7 +1,8 @@
 
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Saving(){
     
@@ -15,7 +16,7 @@ export default function Saving(){
                 <h1>10 Simple Tips to Save Money Without Sacrificing Your Lifestyle</h1>
             </div>
             <div className="content">
-
+              <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_960_720.jpg" alt="idea bulb" />
             
             Saving money can sometimes feel like a daunting task, but it doesn't have to be. With a few 

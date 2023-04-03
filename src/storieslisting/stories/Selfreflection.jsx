@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Selfreflection(){
     
@@ -15,7 +16,7 @@ export default function Selfreflection(){
                 <h1>The Power of Self-Reflection: How to Learn from Your Mistakes and Grow as a Person</h1>
             </div>
             <div className="content">
-
+               <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2017/06/23/08/55/board-2433978__340.jpg" alt="idea bulb" />
             
             We all make mistakes in life, but what separates successful people from the rest is their ability to learn from their mistakes and use them as opportunities for growth. Self-reflection is a powerful tool that can help you gain insight into your own actions and behaviors, allowing you to learn from your mistakes and become a better person. In this blog post, we'll explore the power of self-reflection and provide tips for how to use it to learn from your mistakes.

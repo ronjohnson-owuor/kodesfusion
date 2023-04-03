@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Mindfulness(){
     
@@ -15,7 +16,7 @@ export default function Mindfulness(){
                 <h1>Mindfulness: The Secret to a Happier Life</h1>
             </div>
             <div className="content">
-
+               <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620__340.jpg" alt="idea bulb" />
             
             Are you constantly on the go, trying to juggle work, family, and personal life? Do you find yourself feeling stressed and anxious more often than not? It's time to take a step back and practice mindfulness. This simple technique can help you feel more calm, centered, and present in your everyday life. Let's dive in!

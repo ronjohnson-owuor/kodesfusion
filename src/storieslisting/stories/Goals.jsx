@@ -2,6 +2,7 @@
 
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Goals(){
     
@@ -15,7 +16,7 @@ export default function Goals(){
                 <h1>SMART Goals: How to Achieve Anything You Want (Without Losing Your Sanity)</h1>
             </div>
             <div className="content">
-
+            <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2017/10/15/01/17/stickies-2852375__340.jpg" alt="idea bulb" />
             
             Do you ever feel like you're chasing after a goal that keeps slipping away? Don't worry, you're not alone! The problem isn't your ability to achieve your goals, it's the way you're setting them. That's where SMART goals come in. They're Specific, Measurable, Achievable, Relevant, and Time-bound. And trust me, this isn't just another acronym to remember - it's a game changer!

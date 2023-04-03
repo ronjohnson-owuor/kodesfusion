@@ -1,6 +1,7 @@
-import {useNavigate} from "react-router-dom";
+
 
 import Suggestion from "../../home/Suggestion";
+import Navigation from "../../reachus/Navigation";
 
 export default function Farm(){
     
@@ -12,7 +13,7 @@ export default function Farm(){
                 <h1>Mastering the Art of Pitching Ideas to Investors: Strategies for Success</h1>
             </div>
             <div className="content">
-
+            <Navigation/>
             <img src="https://cdn.pixabay.com/photo/2021/04/09/13/27/chart-6164414_960_720.png" alt="idea bulb" />
             If you have a great business idea that you believe in, pitching it to investors can help you secure funding to bring that idea to life. However, pitching to investors can be a daunting task, and it's important to do it right if you want to get their attention and support. In this article, we'll explore some strategies for successfully pitching your ideas to investors.
 
