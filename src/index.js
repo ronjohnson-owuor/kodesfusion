@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Home from './home/Home';
 import './index.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Storylisting from './storieslisting/Storylist';
@@ -36,7 +35,7 @@ function App() {
   <>
 
   <Routes>
-  <Route path="/" element = {<Home/>} />
+  <Route path="/" element = {<Storylisting/>} />
     <Route path="/storylist" element = {<Storylisting/>} />
     <Route path="/love" element = {<Love/>} />
     <Route path="/contactus" element = {<Contactus/>} />
