@@ -9,7 +9,43 @@
         "title":"7 tips to make your website look professional",
         "paths":"betterweb",
          "poster":"https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737__340.jpg"
-    }
-    
+    },
+    {
+       "title":"7 ways to become a better developer",
+       "paths":"betterdeveloper",
+        "poster":"https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__340.jpg"
+   },
+   {
+      "title":"7 ways to learn coding faster",
+      "paths":"learncoding",
+       "poster":"https://cdn.pixabay.com/photo/2015/06/05/07/11/road-sign-798176__340.jpg"
+  },
+  {
+    "title":"7 ways to write clean code",
+    "paths":"cleancode",
+     "poster":"https://cdn.pixabay.com/photo/2018/02/15/18/29/devops-3155972__340.jpg"
+},
+{
+  "title":"7 ways to learn coding happily",
+  "paths":"happycoding",
+   "poster":"https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107__340.jpg"
+},
+{
+  "title":"7 habits of god-tier programmers",
+  "paths":"godtier",
+   "poster":"https://cdn.pixabay.com/photo/2016/11/19/14/16/man-1839500__340.jpg"
+},{
+    "title":"7 things that make you a weaker programmer",
+    "paths":"weakness",
+     "poster":"https://cdn.pixabay.com/photo/2018/03/06/06/27/emoji-3202669__340.jpg"
+  },{
+    "title":"7 tips to learn a framework faster",
+    "paths":"framework",
+     "poster":"https://cdn.pixabay.com/photo/2020/06/12/14/06/mockup-5290462__340.jpg"
+  },{
+    "title":"7 tips to make responsive websites",
+    "paths":"responsive",
+     "poster":"https://cdn.pixabay.com/photo/2017/07/03/15/20/technology-2468062__340.jpg"
+  }
 
 ]
