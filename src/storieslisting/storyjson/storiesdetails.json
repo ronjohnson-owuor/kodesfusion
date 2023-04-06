@@ -2,86 +2,8 @@
 [
     {
         "title":"how to improve productivity",
-        "imagePosition":14,
-        "paths":"love"
-    },
-    {
-        "title":"how to pitch your ideas to investor",
-        "imagePosition":7,
-        "paths":"farm"
-    },
-    {
-        "title":"How great ideas are born",
-        "imagePosition":6,
-        "paths":"teen"
-    },
-    {
-        "title":"How to learn coding language faster",
-        "imagePosition":0,
-        "paths":"learntocode"
-    },
-    {
-        "title":"How to learn any language",
-        "imagePosition":8,
-        "paths":"learnanylanguage"
-    }
-    ,{
-        "title":"10 Simple Tips to Save Money Without Sacrificing Your Lifestyle",
-        "imagePosition":12,
-        "paths":"saving-without-sacrifice"
-    },{
-        "title":"Saving money on a tough budget",
-        "imagePosition":17,
-        "paths":"saving-on-a-tight-budget"
-    }
-    ,{
-        "title":"The power of gratitude",
-        "imagePosition":4,
-        "paths":"powerofgratitude"
-    }
-    ,{
-        "title":"Finding Your Passion and Purpose: How to Live a Fulfilling Life",
-        "imagePosition":15,
-        "paths":"purpose"
-    }
-    ,{
-        "title":"Mastering Communication: The Key to Effective Relationships and Success",
-        "imagePosition":1,
-        "paths":"communication"
-    }
-    ,{
-        "title":"Money Management Made Easy: Tips for Financial Success",
-        "imagePosition":2,
-        "paths":"financial-success"
-    }
-    ,{
-        "title":"Healthy Habits for a Better You: Simple Changes for a Happier, Healthier Life",
-        "imagePosition":5,
-        "paths":"healthyhabits"
-    },{
-        "title":"SMART Goals: How to Achieve Anything You Want (Without Losing Your Sanity)",
-        "imagePosition":3,
-        "paths":"goals"
-    },{
-        "title":"Leadership Skills: How to Become a Great Leader and Inspire Others",
-        "imagePosition":9,
-        "paths":"leadership"
-    },{
-        "title":"The Art of Letting Go: How to Release Negative Emotions and Move Forward in Life",
-        "imagePosition":10,
-        "paths":"art-of-letting-go"
-    },{
-        "title":"Mindfulness: The Secret to a Happier Life",
-        "imagePosition":11,
-        "paths":"mindfulness"
-    },{
-        "title":"Optimism:Experience a world from a different angle",
-        "imagePosition":13,
-        "paths":"optimism"
-    },{
-        "title":"The Power of Self-Reflection: How to Learn from Your Mistakes and Grow as a Person",
-        "imagePosition":16,
-        "paths":"self-reflection"
+        "paths":"love",
+         "poster":"https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261__340.jpg"
     }
     
 

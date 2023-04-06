@@ -5,9 +5,7 @@ import users from "./storyjson/storiesdetails.json";
 import Contactus from "../reachus/Contactus";
 import Navigation from "../reachus/Navigation";
 export default function Storylisting(){
-   const imagename = require.context("./storyImages");
-   const imageKey  = imagename.keys();
-   const cleanedKeys = imageKey.map((key) => key.replace("./",""));
+
    const [search,setsearch] = useState('');
    const navigate = useNavigate();
 
@@ -33,7 +31,7 @@ export default function Storylisting(){
                         ).map((items) => (
                         <div id={items.key} className=" stories_section teen">
                         <div className="image_holder">
-                            <img src={imagename(`./${cleanedKeys[items.imagePosition]}`)} alt="teen" />
+                            <img src={items.poster} alt="teen" />
                         </div>
                         <h3>{items.title}</h3>
                         <button onClick={() => navigate(`/${items.paths}`)}>read</button>

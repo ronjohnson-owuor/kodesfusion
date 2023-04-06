@@ -3,12 +3,6 @@ import {useNavigate} from "react-router-dom";
 import users from "../storieslisting/storyjson/storiesdetails.json";
 
 export default function Suggestion(){
-// query the images 
-const imagename = require.context("../storieslisting/storyImages");
-const imageKey  = imagename.keys();
-const cleanedKeys = imageKey.map((key) => key.replace("./",""));
-
-
     const navigate = useNavigate();
     return(
         <>
@@ -17,9 +11,9 @@ const cleanedKeys = imageKey.map((key) => key.replace("./",""));
                    .slice(0,3)
                    .map((items)=>(
                     <div id={items.key}>
-                        <h3>{items.title}</h3>
-                        <img key={items .imagePosition} src={imagename(`./${cleanedKeys[items.imagePosition]}`)} alt="teen" />
-                        <button key={items.paths} onClick={() => navigate(`/${items.paths}`)}>read</button>
+                    <h3>{items.title}</h3>
+                    <img key={items .key} src={items.poster} alt="teen" />
+                    <button key={items.paths} onClick={() => navigate(`/${items.paths}`)}>read</button>
                     </div>
                    ))}
               </div>
