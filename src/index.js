@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Storylisting from './storieslisting/Storylist';
-import Communication from './storieslisting/stories/Communication';
+import Weblayout from './storieslisting/stories/Weblayout';
+import Betterweb from './storieslisting/stories/Betterweb';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
   <Routes>
   <Route path="/" element = {<Storylisting/>} />
     <Route path="/storylist" element = {<Storylisting/>} />
-    <Route path="/communication" element = {<Communication/>} />
+    <Route path="/weblayout" element = {<Weblayout/>} />
+    <Route path="/betterweb" element = {<Betterweb/>} />
   </Routes>
   </>
   );
