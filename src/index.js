@@ -13,6 +13,10 @@ import Godtier from './storieslisting/stories/Godtier';
 import Weakness from './storieslisting/stories/Weakness';
 import Framework from './storieslisting/stories/Framework';
 import Responsive from './storieslisting/stories/Responsive';
+import Policy from './reachus/Policy';
+import Terms from './reachus/Terms';
+import About from './reachus/Aboutus';
+import Contactus from './reachus/Contactus';
 
 function App() {
 
@@ -35,6 +39,10 @@ function App() {
     <Route path="/framework" element = {<Framework/>} />
     <Route path="/responsive" element = {<Responsive/>} />
     <Route path="/betterdeveloper" element = {<Efficientprogrammer/>} />
+    <Route path="/policy" element={<Policy/>}/>
+    <Route path="/terms" element={<Terms/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/contactus" element={<Contactus/>}/>
   </Routes>
   </>
   );
