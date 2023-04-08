@@ -46,6 +46,15 @@
     "title":"7 tips to make responsive websites",
     "paths":"responsive",
      "poster":"https://cdn.pixabay.com/photo/2017/07/03/15/20/technology-2468062__340.jpg"
-  }
+  },{
+   "title":"7 reasons to focus on the basics of coding",
+   "paths":"basics",
+    "poster":"https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351__340.png"
+ }
+ ,{
+   "title":"7 best websites to learn coding",
+   "paths":"bestwebsites",
+    "poster":"https://cdn.pixabay.com/photo/2015/11/06/15/13/internet-1028794__340.jpg"
+ }
 
 ]

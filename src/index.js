@@ -17,6 +17,9 @@ import Policy from './reachus/Policy';
 import Terms from './reachus/Terms';
 import About from './reachus/Aboutus';
 import Contactus from './reachus/Contactus';
+import Basics from './storieslisting/stories/Basics';
+import Bestcodingwebsites from './storieslisting/stories/Bestcodingwebsites';
+
 
 function App() {
 
@@ -35,6 +38,8 @@ function App() {
     <Route path="/happycoding" element = {<Happycoding/>} />
     <Route path="/learncoding" element = {<Learncoding/>} />
     <Route path="/godtier" element = {<Godtier/>} />
+    <Route path="/basics" element = {<Basics/>} />
+    <Route path="/bestwebsites" element = {<Bestcodingwebsites/>} />
     <Route path="/weakness" element = {<Weakness/>} />
     <Route path="/framework" element = {<Framework/>} />
     <Route path="/responsive" element = {<Responsive/>} />
