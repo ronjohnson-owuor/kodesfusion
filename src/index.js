@@ -20,6 +20,7 @@ import Contactus from './reachus/Contactus';
 import Basics from './storieslisting/stories/Basics';
 import Bestcodingwebsites from './storieslisting/stories/Bestcodingwebsites';
 import Codingwithnointernet from './storieslisting/stories/Programwithnointernet';
+import EasiestLanguages from './storieslisting/stories/Easiestlanguages';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
     <Route path="/betterdeveloper" element = {<Efficientprogrammer/>} />
     <Route path="/policy" element={<Policy/>}/>
     <Route path="/terms" element={<Terms/>}/>
+    <Route path="/bestcodinglanguages" element={<EasiestLanguages/>}/>
     <Route path="/coding-without-internet" element={<Codingwithnointernet/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contactus" element={<Contactus/>}/>
