@@ -21,6 +21,9 @@ import Basics from './storieslisting/stories/Basics';
 import Bestcodingwebsites from './storieslisting/stories/Bestcodingwebsites';
 import Codingwithnointernet from './storieslisting/stories/Programwithnointernet';
 import EasiestLanguages from './storieslisting/stories/Easiestlanguages';
+import Benefitsofframeworks from './storieslisting/stories/Benefitsofframeworks';
+import Testing from './storieslisting/stories/Testing';
+import Opensource from './storieslisting/stories/Opensource';
 
 
 function App() {
@@ -48,6 +51,9 @@ function App() {
     <Route path="/betterdeveloper" element = {<Efficientprogrammer/>} />
     <Route path="/policy" element={<Policy/>}/>
     <Route path="/terms" element={<Terms/>}/>
+    <Route path="/opensource" element={<Opensource/>}/>
+    <Route path="/testing" element={<Testing/>}/>
+    <Route path="/benefitsofframeworks" element={<Benefitsofframeworks/>}/>
     <Route path="/bestcodinglanguages" element={<EasiestLanguages/>}/>
     <Route path="/coding-without-internet" element={<Codingwithnointernet/>}/>
     <Route path="/about" element={<About/>}/>
